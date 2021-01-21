@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react'
+import './Header.css'
 export type HeaderProps = {
 	level:number
 	children:ReactNode
@@ -6,5 +7,6 @@ export type HeaderProps = {
 }
 export const Header = ({ level, className , children }:HeaderProps) => {
 	const Heading = `h${ level }`
-	return React.createElement(Heading, { className }, children)
+	const cssClass = { className : "defaultHeader"} 
+	return React.createElement(Heading, cssClass, children)
 }

@@ -6,6 +6,10 @@ const mocks = [
 	{
 		level:2,
 		label:'Header level 2'
+	}, 
+	{
+		level:3,
+		label:'Header level 3'
 	}
 ]
 export default mocks
