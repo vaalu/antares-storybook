@@ -22,7 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 /.cache/
-/public/
+!public/static/*
+!public/.gitkeep
+!public/static/.gitkeep
 /.vscode/
 /storybook-static/
 /.eslintcache
