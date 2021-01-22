@@ -22,7 +22,7 @@
     "webpack": "4.44.2"
   },
   "scripts": {
-    "test": "react-scripts test",
+    "test": "react-scripts test --coverage --watchAll",
     "eject": "react-scripts eject",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "start-storybook -p 6006 -s public",
